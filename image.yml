@@ -14,6 +14,9 @@ upstream:
     transform:
     - regex: '[+~,]'
       replace: ''
+  sponsor:
+  - name: Donate to the Mozilla Foundation
+    url: https://www.mozillafoundation.org/en/donate/
 
 release:
   branch: master
